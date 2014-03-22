@@ -1,0 +1,18 @@
+/* ==========================================================================
+   Interface Colors
+   ========================================================================== */
+
+	/* Interface color palette */
+
+	$color-green: rgb(28, 184, 65);
+	$color-maroon: rgb(202, 60, 60);
+	$color-orange: rgb(223, 117, 20);
+	$color-light-blue: rgb(66, 184, 221);
+
+
+	/* State colors */
+
+	$success-color: $color-green;
+	$error-color: $color-maroon;
+	$warning-color: $color-orange;
+	$secondary-color: $color-light-blue;
