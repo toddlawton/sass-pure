@@ -1,0 +1,23 @@
+{
+  "name": "sass-pure",
+  "version": "0.0.1",
+  "homepage": "https://github.com/toddlawton/sass-pure",
+  "authors": [
+    "toddlawton <toddbee@gmail.com>"
+  ],
+  "description": "A super lightweight port of Pure CSS into SASS",
+  "main": "pure.scss",
+  "keywords": [
+    "Pure",
+    "CSS",
+    "Sass"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
