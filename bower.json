@@ -5,7 +5,7 @@
   "authors": [
     "toddlawton <toddbee@gmail.com>"
   ],
-  "description": "A super lightweight port of Pure CSS into SASS",
+  "description": "A lightweight, customizable port of Pure CSS into SASS.",
   "main": "pure.scss",
   "keywords": [
     "Pure",
