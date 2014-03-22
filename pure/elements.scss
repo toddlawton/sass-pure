@@ -1,0 +1,21 @@
+/* ==========================================================================
+   Element Styles
+   ========================================================================== */
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin: 0 0 10px 0;
+}
+
+aside {
+    background: $aside-color; /* same color as selected state on site menu */
+    padding: 0.3em 1em;
+    border-radius: $global-border-radius;
+    color: #fff;
+	a, a:visited {
+		color: $aside-link-color;
+	}
+}

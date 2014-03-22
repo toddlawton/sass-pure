@@ -2,9 +2,16 @@
    Pure Includes
    ========================================================================== */
 
+/* Mandatory */
+
 @import "pure/variables";
+
+/* Optional */
+
 @import "pure/base";
 @import "pure/buttons";
+@import "pure/code";
+@import "pure/elements";
 @import "pure/forms";
 @import "pure/grids";
 @import "pure/menus";

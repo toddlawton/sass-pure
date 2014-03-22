@@ -1,6 +1,18 @@
 /*csslint outline-none:false*/
 
+/* ==========================================================================
+   Button Core Styles
+   ========================================================================== */
+
 .pure-button {
+	/* Structure */
+    display: inline-block;
+    *display: inline; /*IE 6/7*/
+    zoom: 1;
+	line-height: normal;
+    white-space: nowrap;
+    vertical-align: baseline;
+    text-align: center;
     font-family: inherit;
     font-size: 100%;
     *font-size: 90%; /*IE 6/7 - To reduce IE's oversized button text*/
@@ -13,7 +25,13 @@
     border: none rgba(0, 0, 0, 0);  /*IE9 + everything else*/
     background-color: #E6E6E6;
     text-decoration: none;
-    border-radius: 2px;
+    border-radius: $global-border-radius;
+    cursor: pointer;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .pure-button-hover,
@@ -26,9 +44,11 @@
     background-image: -o-linear-gradient(transparent, rgba(0,0,0, 0.05) 40%, rgba(0,0,0, 0.10));
     background-image: linear-gradient(transparent, rgba(0,0,0, 0.05) 40%, rgba(0,0,0, 0.10));
 }
+
 .pure-button:focus {
     outline: 0;
 }
+
 .pure-button-active,
 .pure-button:active {
     box-shadow: 0 0 0 1px rgba(0,0,0, 0.15) inset, 0 0 6px rgba(0,0,0, 0.20) inset;
@@ -68,35 +88,22 @@ a.pure-button-selected {
     color: #fff;
 }
 
-.pure-button {
-    /* Structure */
-    display: inline-block;
-    *display: inline; /*IE 6/7*/
-    zoom: 1;
-    line-height: normal;
-    white-space: nowrap;
-    vertical-align: baseline;
-    text-align: center;
-    cursor: pointer;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
 /* Firefox: Get rid of the inner focus border */
 .pure-button::-moz-focus-inner {
     padding: 0;
     border: 0;
 }
 
+/* ==========================================================================
+   Button States
+   ========================================================================== */
+
 .button-success,
 .button-error,
 .button-warning,
 .button-secondary {
     color: white;
-    border-radius: 4px;
+    border-radius: $global-border-radius;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -114,4 +121,24 @@ a.pure-button-selected {
 
 .button-secondary {
     background: $secondary-color;
+}
+
+/* ==========================================================================
+   Button Sizes
+   ========================================================================== */
+
+.button-xsmall {
+    font-size: 70%;
+}
+
+.button-small {
+    font-size: 85%;
+}
+
+.button-large {
+    font-size: 110%;
+}
+
+.button-xlarge {
+    font-size: 125%;
 }

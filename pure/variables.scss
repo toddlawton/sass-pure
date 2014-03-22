@@ -3,12 +3,21 @@
    ========================================================================== */
 
 	/* Interface color palette */
+	
+	$color-dark-grey: rgb(34,34,34);
+	$color-grey: rgb(230,230,230);
 
 	$color-green: rgb(28, 184, 65);
 	$color-maroon: rgb(202, 60, 60);
 	$color-orange: rgb(223, 117, 20);
 	$color-light-blue: rgb(66, 184, 221);
+	$color-blue: rgb(31,141,214);
 
+	/* Default element colors */
+
+	$button-color: $color-grey;
+	$aside-color: $color-blue;
+	$aside-link-color: $color-light-blue;
 
 	/* State colors */
 
@@ -16,3 +25,9 @@
 	$error-color: $color-maroon;
 	$warning-color: $color-orange;
 	$secondary-color: $color-light-blue;
+
+/* ==========================================================================
+   Interface Shaping
+   ========================================================================== */
+
+   	$global-border-radius: 4px;
