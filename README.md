@@ -12,7 +12,7 @@ Bower Installation
 $ bower install --save sass-pure
 ```
 
-Original YUI Project License
+YUI Project License
 -------
 
 This software is free to use under the Yahoo! Inc. BSD license.
