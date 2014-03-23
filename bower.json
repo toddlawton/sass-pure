@@ -12,7 +12,7 @@
     "CSS",
     "Sass"
   ],
-  "license": "MIT",
+  "license": "BSD",
   "ignore": [
     "**/.*",
     "node_modules",
