@@ -6,11 +6,16 @@ SASS Pure
 A set of small, responsive CSS modules that you can use in every web project ported to SASS.
 
 Bower Installation
---------
+-------
 
 ```shell
 $ bower install --save sass-pure
 ```
+
+Build
+-------
+
+Before compiling pure.scss with your build tool of choice, you have the option of commenting out any includes that may be redundant or which you know would be unused in your project. The only include which cannot be removed is "pure/variables".
 
 Original YUI Project License
 -------
