@@ -17,7 +17,7 @@ Build
 
 Before compiling pure.scss with your build tool of choice, you have the option of commenting out any includes that may be redundant or which you know would be unused in your project. The only include which cannot be removed is "pure/variables".
 
-Original YUI Project License
+YUI Project License
 -------
 
 This software is free to use under the Yahoo! Inc. BSD license.
