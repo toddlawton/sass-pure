@@ -13,7 +13,8 @@ code {
     padding: 0.2em 0.4em;
     white-space: nowrap;
 }
-.content p code {
+
+p code {
     font-size: 90%;
 }
 
@@ -27,6 +28,7 @@ code {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
 }
+
 .code code {
     font-size: 95%;
     white-space: pre;
@@ -34,6 +36,7 @@ code {
     padding: 0;
     background: none;
 }
+
 .code-wrap code {
     white-space: pre-wrap;
     word-wrap: break-word;
